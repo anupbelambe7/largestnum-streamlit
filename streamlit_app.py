@@ -14,9 +14,9 @@ elif num2 > num1 and num2 > num3:
 else:
     largest = num3
 st.divider() 
-st.metric(label="Largest",value=largest)
+st.metric(label="**Largest**",value=largest)
 ans = f"""
-The largest among the {num1},{num2},{num3} is **:blue[{largest}]**"""
+The largest among the numbers {num1},{num2},{num3} is **:blue[{largest}]**"""
 st.markdown(ans)
 
 
