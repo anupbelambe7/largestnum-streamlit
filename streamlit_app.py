@@ -14,6 +14,6 @@ else:
     largest = num3
 st.divider() 
 ans = f"""
-<p>The largest among the 3 given numbers is {largest}</p>"""
+The largest among the 3 given numbers is {largest}"""
 st.markdown(ans)
 
