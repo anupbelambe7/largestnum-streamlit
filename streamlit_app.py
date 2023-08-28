@@ -15,7 +15,7 @@ else:
     largest = num3
 st.divider() 
 ans = f"""
-**The largest among the 3 given numbers is :blue[{largest}]**"""
+The largest among the 3 given numbers is **:blue[{largest}]**"""
 st.markdown(ans)
 st.metric(label="Largest",value=largest)
 
