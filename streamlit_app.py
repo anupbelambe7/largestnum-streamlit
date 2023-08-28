@@ -4,7 +4,6 @@ st.header("Find Largest Number App")
 """
 This application finds the largest among the 3 given numbers
 """
-st.divider() 
 num1 = st.number_input("First Number",step=1)
 num2 = st.number_input("Second Number",step=1)
 num3 = st.number_input("Third Number",step=1)
@@ -16,6 +15,6 @@ else:
     largest = num3
 st.divider() 
 ans = f"""
-**The largest among the 3 given numbers is :blue[{largest}]**"""
+**The largest among the 3 given numbers is ***:blue[{largest}]*****"""
 st.markdown(ans)
 
