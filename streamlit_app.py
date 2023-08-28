@@ -15,7 +15,7 @@ else:
 "---"
 st.metric(label="**Largest Number**",value=largest)
 ans = f"""
-The largest among the numbers {num1},{num2},{num3} is **:blue[{largest}]**"""
+The largest among the numbers ({num1},{num2},{num3}) is **:blue[{largest}]**"""
 st.markdown(ans)
 
 
