@@ -1,8 +1,8 @@
 import streamlit as st
-"""
-# Find Largest Number App
-## This application find the largest among the 3 given numbers
-"""
+
+st.header("Find Largest Number App")
+st.subheader("This application find the largest among the 3 given numbers")
+
 num1 = st.number_input("First Number",step=1)
 num2 = st.number_input("Second Number",step=1)
 num3 = st.number_input("Third Number",step=1)
