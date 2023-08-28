@@ -1,6 +1,7 @@
 import streamlit as st
 """
-# Find the largest among the 3 given numbers
+# Find Largest Number App
+## This application find the largest among the 3 given numbers
 """
 num1 = st.number_input("First Number",step=1)
 num2 = st.number_input("Second Number",step=1)
@@ -11,4 +12,5 @@ elif num2 > num1 and num2 > num3:
     largest = num2
 else:
     largest = num3
-st.metric(label="The largest among the 3 given numbers is", value=largest)
+st.subheader("The largest among the 3 given numbers is")    
+st.metric(value=largest)
