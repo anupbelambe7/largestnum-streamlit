@@ -14,4 +14,4 @@ else:
     largest = num3
 st.divider()    
 st.subheader("The largest among the 3 given numbers is")    
-st.metric(value=largest)
+st.metric(label="",value=largest)
