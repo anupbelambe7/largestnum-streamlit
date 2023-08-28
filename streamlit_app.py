@@ -13,4 +13,4 @@ elif num2 > num1 and num2 > num3:
 else:
     largest = num3
 st.subheader("The largest among the 3 given numbers is")    
-st.metric(label="Largest Number",value=largest)
+st.metric(label="",value=largest)
