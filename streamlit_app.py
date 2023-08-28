@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.header("Find Largest Number App")
-st.subheader("This application find the largest among the 3 given numbers")
+st.subheader("This application finds the largest among the 3 given numbers",divider='rainbow')
 
 num1 = st.number_input("First Number",step=1)
 num2 = st.number_input("Second Number",step=1)
@@ -12,5 +12,6 @@ elif num2 > num1 and num2 > num3:
     largest = num2
 else:
     largest = num3
+st.divider()    
 st.subheader("The largest among the 3 given numbers is")    
-st.metric(label="",value=largest)
+st.subheader("{largest}")
