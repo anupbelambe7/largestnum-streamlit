@@ -12,7 +12,8 @@ elif num2 > num1 and num2 > num3:
     largest = num2
 else:
     largest = num3
-st.divider()    
-st.subheader("The largest among the 3 given numbers is")
-st.write(largest)
+st.divider() 
+ans = f"""
+<p>The largest among the 3 given numbers is {largest}</p>"""
+st.markdown(ans)
 
